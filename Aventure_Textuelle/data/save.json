@@ -1,0 +1,26 @@
+{
+  "playerName" : "ad",
+  "solvedPuzzleIDs" : [
+    "p1",
+    "p2"
+  ],
+  "currentRoomID" : "room4",
+  "inventory" : [
+    {
+      "description" : "Permet d'éclairer les salles sombres.",
+      "id" : "torche",
+      "name" : "Torche"
+    },
+    {
+      "id" : "seau",
+      "description" : "Peut transporter de l'eau.",
+      "name" : "Seau"
+    },
+    {
+      "id" : "clelab",
+      "name" : "Clé du labo",
+      "description" : "Ouvre un coffret verrouillé."
+    }
+  ],
+  "score" : 20
+}

@@ -1,0 +1,24 @@
+[
+    {
+      "id": "p1",
+      "roomID": "room2",
+      "description": "Grâce à la torche, vous traversez l'éboulement.",
+      "solutionItemID": "torche",
+      "isSolved": false
+    },
+    {
+      "id": "p2",
+      "roomID": "room6",
+      "description": "Vous videz l'eau avec le seau, dévoilant un passage.",
+      "solutionItemID": "seau",
+      "isSolved": false
+    },
+    {
+      "id": "p3",
+      "roomID": "room7",
+      "description": "La clé ouvre le coffre : un levier révèle la sortie !",
+      "solutionItemID": "clelab",
+      "isSolved": false
+    }
+  ]
+  

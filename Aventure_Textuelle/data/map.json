@@ -1,0 +1,65 @@
+[
+    {
+      "id": "room1",
+      "name": "Entrée de la grotte",
+      "description": "Un chemin humide mène vers l'obscurité.",
+      "connections": { "nord": "room2" },
+      "items": [
+        { "id": "torche", "name": "Torche", "description": "Permet d'éclairer les salles sombres." }
+      ]
+    },
+    {
+      "id": "room2",
+      "name": "Galerie effondrée",
+      "description": "Un éboulement empêche le passage à l'est sans lumière.",
+      "connections": { "sud": "room1" },
+      "items": []
+    },
+    {
+      "id": "room3",
+      "name": "Salle du puits",
+      "description": "Un vieux puits rouillé. Une corde est hors de portée.",
+      "connections": { "ouest": "room2", "nord": "room4" },
+      "items": [
+        { "id": "seau", "name": "Seau", "description": "Peut transporter de l'eau." }
+      ]
+    },
+    {
+      "id": "room4",
+      "name": "Laboratoire abandonné",
+      "description": "Des fioles brisées couvrent le sol.",
+      "connections": { "sud": "room3", "est": "room5" },
+      "items": [
+        { "id": "clelab", "name": "clelab", "description": "Ouvre un coffret verrouillé." }
+      ]
+    },
+    {
+      "id": "room5",
+      "name": "Bibliothèque secrète",
+      "description": "Une étagère semble pouvoir pivoter.",
+      "connections": { "ouest": "room4", "nord": "room6" },
+      "items": []
+    },
+    {
+      "id": "room6",
+      "name": "Salle inondée",
+      "description": "L'eau bloque l'accès vers l'est.",
+      "connections": { "sud": "room5" },
+      "items": []
+    },
+    {
+      "id": "room7",
+      "name": "Coffre scellé",
+      "description": "Un coffre fermé à clé repose au centre.",
+      "connections": { "ouest": "room6" },
+      "items": []
+    },
+    {
+      "id": "room8",
+      "name": "Sortie secrète",
+      "description": "Une porte gravée mène vers l'extérieur : la victoire !",
+      "connections": { "sud": "room7" },
+      "items": []
+    }
+  ]
+  
